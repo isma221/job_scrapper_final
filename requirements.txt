@@ -1,0 +1,13 @@
+fastapi>=0.68.0
+pydantic>=1.8.0
+uvicorn>=0.15.0
+python-dotenv>=0.19.0
+httpx>=0.24.0
+beautifulsoup4>=4.9.3
+undetected-chromedriver>=3.0.0
+selenium>=4.0.0
+nodriver>=0.1.0
+linkedin-jobs-scraper>=2.0.0
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+setuptools>=65.5.1 
