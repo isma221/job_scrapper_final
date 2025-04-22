@@ -46,7 +46,7 @@ By using scrape_linkedin_sync()
 
 - Adds a 5-second delay after each job to avoid detection or blocking by LinkedIn.
 
-### LOgic Overview for Indeed Job Scraper 
+### Logic Overview for Indeed Job Scraper 
 - BeautifulSoup is utilized for parsing HTML as well as scraping job details.
 
 #### 1. Building Search URLs 🔗
@@ -257,3 +257,4 @@ curl -X GET "http://localhost:8000/test-ollama/"
 - Error handling implemented for all major components
 - Asynchronous processing for better performance
 
+Selenium needs a real or virtual browser (like Chrome) to run, which is not supported on most free cloud platforms because they don't allow launching browsers or installing drivers. This makes it hard to run Selenium-based scrapers remotely without setting up a full virtual machine or paid server.
